@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.d7f2355b-bc06-4b67-9aac-f5f42582491b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.3f6cacdf-deb4-4b79-95bf-1780b09d23a6"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AA274FLEVWIWU6CTPZQ25XW6P7XGAJJ4YB7OPEFKULHJRUQDIO5AFS2UNPLBPG6BZKTGRTH6BDQZJ3SNAC6ELTPWT4DALVM5WZGC59JHXBZQRZ4V646JEF2EKO3DVMWW65E67NPBTLIGV4HUDK45JFAQWAY5C7OGWQNIOLWNS4M6WNLIMQWU5HUEHDXAT7QTONKHS7ILR2V5EOY"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.3f6cacdf-deb2-4b77-95bf-1780b09d23a6"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AA274FLEVWIWU6CTPZQ25XW6P7XGAJJ4YB7OPEFKULHJRUQDIO5AFS2UNPLBPG6BZKTGRTH6BDQZJ3SNAC6ELTPWT4DALVM5WZGC59JHXBZQRZ4V646JEF2EKO3DVMWW65E67NPBTLIGV4HUDK45JFAQWAY5C7OGWQNIOLWNS4M6WNLIMQWU5HUEHDXAT7QTONKHS7ILR2V5EOY"
+      },
+      "person":  {
+        "personId": "amzn1.ask.account.AA274FLEVWIWU6CTPZQ25XW6P7XGAJJ4YB7OPEFKULHJRUQDIO5AFS2UNPLBPG6BZKTGRTH6BDQZJ3SNAC6ELTPWT4DALVM5WZGC59JHXBZQRZ4V646JEF2EKO3DVMWW65E67NPBTLIGV4HUDK45JFAQWAY5C7OGWQNIOLWNS4M6WNLIMQWU5HUEHDXAT7QTONKHS7ILR2V5EOY"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AEF6OIKOYBPKNMTTDKADC6FWNHGGJ2S2UTLQGZW4CS5PSSJ45RKVHBBWR5EXPFV2N2FK7ROTE7EN7G5XFVZBYAZJ2BPTPXTKQNIXTTDS7KDTLTHAQAETTBYRS7TLLJKB7BD6BK54LTXSYMRS6S6NGLIKRZGUU4PRYCA57TSDASTDGI7ZUTUKL",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com"
+    },
+    "Viewport": {
+      "experiences": [
+        {
+          "arcMinuteWidth": 246,
+          "arcMinuteHeight": 144,
+          "canRotate": false,
+          "canResize": false
+        }
+      ],
+      "shape": "RECTANGLE",
+      "pixelWidth": 1024,
+      "pixelHeight": 600,
+      "dpi": 160,
+      "currentPixelWidth": 1024,
+      "currentPixelHeight": 600,
+      "touch": [
+        "SINGLE"
+      ],
+      "video": {
+        "codecs": [
+          "H_264_42",
+          "H_264_41"
+        ]
+      }
+    },
+    "Viewports": [
+      {
+        "type": "APL",
+        "id": "main",
+        "shape": "RECTANGLE",
+        "dpi": 160,
+        "presentationType": "STANDARD",
+        "canRotate": false,
+        "configuration": {
+          "current": {
+            "video": {
+              "codecs": [
+                "H_264_42",
+                "H_264_41"
+              ]
+            },
+            "size": {
+              "type": "DISCRETE",
+              "pixelWidth": 1024,
+              "pixelHeight": 600
+            }
+          }
+        }
+      }
+    ]
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.bead6992-cf1f-485c-81e9-7aef5074d6c6",
+    "timestamp": "2020-03-10T15:47:45Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "MyPersonalizationIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+}
