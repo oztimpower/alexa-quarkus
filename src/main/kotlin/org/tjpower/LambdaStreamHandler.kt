@@ -8,7 +8,9 @@ import org.tjpower.handlers.request.custom.InProgressHandler
 import org.tjpower.handlers.request.standard.*
 import org.tjpower.interceptors.RequestLogger
 import org.tjpower.interceptors.ResponseLogger
+import javax.inject.Named
 
+@Named("skill")
 class LambdaStreamHandler : SkillStreamHandler(getSkill()) {
 
     companion object {
